@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CJ Holley | Computer Science Student</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">CJ Holley</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#organizations">Organizations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="content">
+      <h2>Hi, I'm CJ Holley</h2>
+      <p>Computer Science Student | Cybersecurity Enthusiast | Collegiate Athlete</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>
+      I'm a dedicated <strong>Computer Science student at Virginia State University</strong>, currently pursuing my degree while on a basketball scholarship. Previously, I majored in <strong>Cybersecurity</strong> for my first two years at the <strong>University of the District of Columbia</strong>, where I developed a strong foundation in information security and ethical computing practices.
+    </p>
+    <p>
+      I am passionate about programming, cybersecurity fundamentals, and innovative technology solutions. My experience as a student-athlete has taught me leadership, teamwork, and time management — skills that translate well into software development and security problem-solving.
+    </p>
+    <p>
+      Certain aspects of my work and research can only be disclosed privately. If you’re a recruiter or collaborator, please feel free to reach out to learn more.
+    </p>
+  </section>
+
+  <section id="resume" class="section resume">
+    <h2>Resume</h2>
+    <div class="timeline">
+      <div class="timeline-item" onclick="toggleDetails(this)">
+        <h3>2025 - Present | Virginia State University</h3>
+        <p class="details">Currently pursuing a B.S. in Computer Science on a basketball scholarship.</p>
+      </div>
+      <div class="timeline-item" onclick="toggleDetails(this)">
+        <h3>2023 - 2025 | University of the District of Columbia</h3>
+        <p class="details">Studied Cybersecurity for two years, focusing on network protection and digital forensics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card fade-in">
+        <h3>Data Security Analyzer</h3>
+        <p>A Python-based tool that identifies and reports potential vulnerabilities in datasets.</p>
+      </div>
+      <div class="project-card slide-left">
+        <h3>Web Development Portfolio</h3>
+        <p>A responsive portfolio built to showcase design, JavaScript, and frontend skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="organizations" class="section organizations">
+    <h2>Organizations</h2>
+    <ul>
+      <li>Previously a member of <strong>SAAC (Student-Athlete Advisory Committee)</strong></li>
+      <li>Active participant in the Virginia State University Computer Science Club</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:chol9266@students.vsu.edu">chol9266@students.vsu.edu</a></p>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CJ Holley. All rights reserved.</p>
+    <p><a href="onepage.html" target="_blank">View Entire Website on One Page</a></p>
+  </footer>
+
+  <script>
+    function toggleDetails(element) {
+      const details = element.querySelector('.details');
+      details.classList.toggle('visible');
+    }
+  </script>
+</body>
+</html>
