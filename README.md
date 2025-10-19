@@ -12,9 +12,8 @@ The following features are implemented in the project:
 
 Here's a mockup and design of the project:
 
-<img src=' ' title='homescreen scheenshot' width='' alt='Video Walkthrough' />
+<img width="1470" height="956" alt="homepage screenshot" src="https://github.com/user-attachments/assets/8f987251-e716-4d7b-8f74-2299d1f2b936" />
 
-OR
 
 ![Alt text](images/example.png)
 
