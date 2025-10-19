@@ -1,12 +1,11 @@
-# *Personal Website
+# Personal Website
 
-*Add a project description(couple sentences abt website*
+This website showcases me, a Computer Science student at Virginia State University with a background in cybersecurity and experience as a collegiate basketball athlete. It highlights my academic journey, projects, and involvement in organizations like SAAC, while encouraging recruiters to reach out privately for more details about his technical work.
 
 The following features are implemented in the project:
-
-- [ ] homepage
-
-- [ ] Example
+- homepage
+- projects
+- resume and more
 
 ## Project Design:
 
@@ -17,6 +16,4 @@ Here's a mockup and design of the project:
 
 ![Alt text](images/example.png)
 
-## Notes and Comments
 
-*Add Notes*
